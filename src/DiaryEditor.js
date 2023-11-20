@@ -41,7 +41,7 @@ const DiaryEditor = ()=> {
             </div>
 
             <div className="form-grid-row">
-                <textarea type="text" id={"diaryContents"} value={state.contents} name={"contents"} onChange={onChange}/>
+                <textarea id={"diaryContents"} value={state.contents} name={"contents"} onChange={onChange}/>
             </div>
             
             <div className="form-grid-row">
